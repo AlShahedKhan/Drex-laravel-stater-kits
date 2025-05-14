@@ -1,0 +1,27 @@
+.typography-content {
+  .table {
+    thead {
+      color: $ot-text-title;
+    }
+    tbody {
+      color: $ot-text-subtitle;
+    }
+  }
+
+  .highlight,
+  .bd-example {
+    color: $ot-text-subtitle;
+  }
+
+  .vertical-alignment {
+    .row {
+      min-height: 50px;
+      background-color: rgba(15, 106, 255, 0.1);
+      margin-bottom: 6px;
+    }
+    .col {
+      background-color: rgba(15, 106, 255, 0.1);
+      border: 1px solid rgba(15, 106, 255, 0.25);
+    }
+  }
+}

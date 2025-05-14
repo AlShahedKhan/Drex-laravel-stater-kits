@@ -1,0 +1,332 @@
+.notification-content {
+  display: flex;
+  gap: 10px;
+}
+.notification-container {
+  width: calc(100% - 340px);
+  .notification-col {
+    .card {
+      padding: 24px;
+      background: $ot-bg-secondary;
+      border-radius: 8px;
+      border: none;
+      .card-head {
+        .card-title {
+          font-family: "Lexend";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 32px;
+          color: $ot-text-title;
+        }
+        .item-selector {
+          .select-items {
+            width: 98px;
+            height: 34px;
+            border: 2px solid #efefef;
+            border-radius: 5px;
+            outline: none;
+            &:hover {
+              border: 2px solid $blue-dark;
+            }
+          }
+
+          .action {
+            .btn-action {
+              padding: 8px 10px;
+              background: $ot-bg-secondary;
+              border: 2px solid $ot-bg-secondary;
+              border-radius: 50px;
+              .fa {
+                color: $ot-text-primary;
+              }
+              &:hover {
+                border: 2px solid $blue-dark;
+              }
+            }
+          }
+        }
+      }
+      .notification-list {
+        padding: 24px 16px;
+        .notification-img {
+          position: relative;
+          img {
+            width: 100%;
+          }
+          .item-icon-badge {
+            position: absolute;
+            top: 41px;
+            right: 0;
+            padding: 4px 4px;
+            border-radius: 50%;
+            background: $blue-dark;
+            color: $ot-bg-secondary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .fa {
+              color: #ffffff;
+            }
+          }
+        }
+        .notification-details {
+          .notification-line {
+            .notification-subtitle {
+              color: $ot-text-title;
+            }
+            .notification-login {
+              color: $ot-text-primary;
+            }
+            .notification-time {
+              color: $ot-text-primary;
+            }
+          }
+          .notification-comment {
+            font-family: "Lexend";
+            font-style: normal;
+            font-weight: 500;
+            color: $ot-text-title;
+          }
+          .notification-content {
+            color: $ot-text-primary;
+            strong {
+              color: $ot-text-title;
+            }
+          }
+          .notification-control {
+            .notification-action {
+              font-family: "Lexend";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 15px;
+              line-height: 19px;
+              background: none;
+              margin-top: 16px;
+              color: $ot-text-title;
+            }
+          }
+          .liked-action {
+            color: $blue-dark !important;
+          }
+          .notification-line {
+            .notification-time {
+              .status-dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                min-width: 10px;
+                min-height: 10px;
+                background-color: $blue-dark;
+              }
+            }
+          }
+          .answer {
+            .user-answer {
+              img {
+                margin-top: 16px;
+                margin-right: 16px;
+              }
+              textarea {
+                width: 75%;
+                color: $ot-text-title;
+                background: $ot-bg-secondary;
+              }
+            }
+            .btn-answer {
+              .btn.btn-reply {
+                font-family: "Lexend";
+                font-weight: 600;
+                line-height: 18px;
+                padding: 9px 18px;
+                background:  linear-gradient(90deg, #0f6aff 0%, #21c6fb 100%);
+                color: white;
+                border: 2px solid $blue-dark;
+                &hover {
+                  opacity: $ot-bg-secondary-opacity;
+                }
+              }
+              .btn.btn-cancel {
+                font-family: "Lexend";
+                font-weight: 600;
+                line-height: 18px;
+                padding: 9px 14px;
+                background: $ot-bg-secondary;
+                color: $ot-text-title;
+                border: 2px solid #efefef;
+                &hover {
+                  opacity: $ot-bg-secondary-opacity;
+                }
+              }
+            }
+          }
+        }
+        &:hover {
+          border-radius: 5px;
+          background: $ot-bg-primary;
+        }
+      }
+      .load-more {
+        border: 2px solid #f4f4f4;
+        border-radius: 5px;
+        padding: 8px 14px;
+        img {
+          width: 14px;
+          height: 14px;
+        }
+        button {
+          color: $ot-text-title;
+          background: none;
+        }
+        &:hover {
+          border: 2px solid $blue-dark;
+        }
+      }
+    }
+  }
+}
+
+.filter-container {
+  width: 340px;
+  .filter {
+    position: fixed;
+    padding: 24px;
+    background: $ot-bg-secondary;
+    border-radius: 8px;
+    border: none;
+    .title-filter {
+      font-family: "Lexend";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 32px;
+      color: $ot-text-title;
+    }
+    .btn-select {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      align-items: center;
+      button {
+        font-family: "Lexend";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        border: 2px solid #f4f4f4;
+        border-radius: 5px;
+        padding: 8px 30px;
+        color: $ot-text-title;
+        background: none;
+        &:hover {
+          border: 2px solid $blue-dark;
+        }
+      }
+      @include devices(sm) {
+        padding: 8px 10px;
+      }
+    }
+    .input-checkbox {
+      .form-check {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0;
+        label {
+          font-family: "Lexend";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: $ot-text-title;
+          margin-left: 5px;
+        }
+      }
+    }
+    .input-user {
+      .form-check {
+        .form-check-label {
+          font-family: "Lexend";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: $ot-text-title;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+@include devices(xl) {
+  .notification-container {
+    width: 100%;
+    .notification-col {
+      .card {
+        .notification-list {
+          padding: 24px 10px;
+        }
+      }
+    }
+  }
+  .filter-container {
+    display: none;
+  }
+}
+@include devices(md) {
+  .notification-container {
+    width: 100%;
+    .notification-col {
+      .card {
+        padding: 10px;
+        .card-head {
+          .card-title {
+            font-size: 16px;
+          }
+        }
+        .notification-list {
+          .notification-details {
+            .notification-control {
+              .notification-action {
+                font-size: 10px;
+              }
+            }
+          }
+          .notification-img {
+            .item-icon-badge {
+              top: 41px;
+              padding: 3px;
+              .fa {
+                font-size: 10px;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include devices(sm) {
+  .notification-container {
+    width: 100%;
+    .notification-col {
+      .card {
+        padding: 10px;
+        .notification-list {
+          .notification-details {
+            font-size: 11px;
+          }
+          .notification-img {
+            img {
+              width: 45px;
+            }
+            .item-icon-badge {
+              top: 34px;
+              padding: 3px;
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}

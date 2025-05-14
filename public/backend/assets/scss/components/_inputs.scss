@@ -1,0 +1,19 @@
+/* Custom Input field */
+.ot-input {
+  background-color: $ot-bg-primary !important;
+  border: 1px solid #f0eeee !important;
+  outline: none !important;
+  color: $ot-text-primary !important;
+
+  &:focus-visible {
+    box-shadow: 0px 0px 10px rgba(10, 175, 255, 0.35) !important;
+    border: 1px solid #0010f7;
+    outline: none;
+  }
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: #b2bec3;
+  }
+}

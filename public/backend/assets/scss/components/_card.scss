@@ -1,0 +1,57 @@
+.basic-card{
+    .list-group{
+        gap:10px;
+    }
+    .card-title{
+        margin-bottom: 0;
+    }
+}
+
+.ot-card{
+    .ot-card-header{
+        color:$ot-text-title;
+    }
+}
+
+.ot-card-b{
+    background: $ot-bg-secondary;
+    .card-header{
+        color: $ot-text-title;
+    }
+}
+
+.customized{
+    .card-body{
+        border-bottom: 1px solid #F0EEEE;
+        border-left: 1px solid #F0EEEE;
+        border-right: 1px solid #F0EEEE;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .card:hover{
+        box-shadow: 0px 5px 10px 0px lightgrey;
+    }
+}
+.customized-card{
+        .list-group{
+            padding: 20px;
+            li{
+                background: $ot-bg-secondary;
+                color: $ot-text-subtitle;
+                list-style: none;
+            }
+        }
+}
+.no-border-card{
+    .list-group{
+        gap:10px;
+    }
+    .card{
+        box-shadow: 0px 10px 20px 0px lightgrey;
+    }
+}
+.simple-card{
+    .list-group{
+        gap:10px;
+
+    }
+}

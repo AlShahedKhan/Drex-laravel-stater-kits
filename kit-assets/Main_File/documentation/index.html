@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More. Documention</title>
+  <link rel="shortcut icon" href="images/onlyicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand order-2 mr-auto ml-3 ml-lg-0" href="#">
+          <img src="images/logo-light.png" alt="" />
+        </a>
+        <button class="navbar-toggler order-1" type="button" data-toggle="collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="order-3">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="btn custom-btn gradient-btn" href="#" target="_blank">V1.0</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-fluid">
+    <aside class="left-menu">
+      <nav>
+        <ul>
+          <!-- Menu Title -->
+          <li class="left-menu-title">
+            <h6>
+              <a href="#getting-started">Getting started</a>
+            </h6>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#getting-started">
+              <span>Welcome</span>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#keyfeatures">
+              <span>Key Features</span>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#server-requirements">
+              <span>Server Requirements</span>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#file-permissions">
+              <span>File Permissions</span>
+            </a>
+          </li>
+
+          <!-- Menu Title -->
+          <li class="left-menu-title">
+            <h6>
+              <a href="#database">Database</a>
+            </h6>
+          </li>
+
+
+          <li class="left-menu-item">
+            <a href="#create-database">
+              <span>Create Database</span>
+            </a>
+          </li>
+
+          <!-- installation  -->
+
+          <li class="left-menu-item">
+            <a href="#import-database">
+              <span>Import Database</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#import-database-local">
+              <span>Import Database Local</span>
+            </a>
+          </li>
+
+
+          <li class="left-menu-item">
+            <a href="#local-setup">
+              <span>Local Setup</span>
+            </a>
+          </li>
+
+          <li class="left-menu-title">
+            <h6>
+              <a href="#installation">Installation</a>
+            </h6>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#file-setup">
+              <span>File Setup</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#File_Structure">
+              <span>File Structure</span>
+            </a>
+          </li>
+          <li class="left-menu-title">
+            <h6>
+              <a href="#superAdminPanel">Dymanic/Functional tools</a>
+            </h6>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#Registration">
+              <span>Registration</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#EmailVarify">
+              <span>Email Verification</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#Login">
+              <span>Login</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#ForgetPassword">
+              <span>Forget Password</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#resetPassword">
+              <span>Reset Password Mail</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#ResetPassword">
+              <span>Reset Password</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#superAdminDashboard">
+              <span>Dashboard</span>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#LightDark">
+              <span>Dark/Light Mode</span>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#ChangeLanguage">
+              <span>Change Language</span>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#SuperAdminProfile">
+              <span>View Profile</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#UpdateProfile">
+              <span>Update Profile</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#ChangePassword">
+              <span>Change Password</span>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#profile">
+              <span>Profile</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#superAdminSetting">
+              <span>Settings</span>
+            </a>
+          </li>
+          </li>
+          <li class="left-menu-item">
+            <a href="#companyUserRoles">
+              <span>User & Roles</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#languageType">
+              <span>Language</span>
+            </a>
+          </li>
+          <li class="left-menu-title">
+            <h6>
+              <a href="#apiauthentication">API Authentication</a>
+            </h6>
+          </li>
+          <li class="left-menu-item">
+            <a href="#apiregistration">
+              <span>Register User REST API</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#apilogin">
+              <span>Login User REST API</span>
+            </a>
+          </li>
+          <!-- Static Tools -->
+          <li class="left-menu-title">
+            <h6>
+              <a href="#staticTools">Static tools</a>
+            </h6>
+          </li>
+          <li class="left-menu-title">
+            <a href="#dashboard_static">
+              <strong><span>Dashboard</span></strong>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#dashboard_1">
+              <strong><span>Dashboard 1</span></strong>
+            </a>
+          </li>
+          <li class="left-menu-title">
+            <a href="#pricing">
+              <strong><span>Pricing</span></strong>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#basic_pricing">
+              <span>Basic Pricing</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#pricing_table_1">
+              <span>Pricing Table 1</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#pricing_table_2">
+              <span>Pricing Table 2</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#pricing_table_3">
+              <span>Pricing Table 3</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#pricing_table_4">
+              <span>Pricing Table 4</span>
+            </a>
+          </li>
+          <li class="left-menu-title">
+            <a href="#forms">
+              <strong><span>Forms</span></strong>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#form_elements">
+              <span>Form Elements</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#input_group">
+              <span>Input Group</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#form_validation">
+              <span>Form Validation</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#sign_in">
+              <span>Sign In</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#sigin_up">
+              <span>Sigin Up</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#reset_password_table">
+              <span>Reset Password</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#recover_password">
+              <span>Recover Password</span>
+            </a>
+          </li>
+
+          <li class="left-menu-title">
+            <a href="#table">
+              <strong><span>Table</span></strong>
+            </a>
+          </li>
+
+          <li class="left-menu-item">
+            <a href="#basic_table">
+              <span>Basic Table</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#data_table">
+              <span>Data Table</span>
+            </a>
+          </li>
+          <li class="left-menu-title">
+            <a href="#email_tamplates">
+              <strong><span>Email Templates</span></strong>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#promotional">
+              <span>Promotional</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#promotional_2">
+              <span>Promotional 2</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#greetings">
+              <span>Greetings</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#greetings_2">
+              <span>Greetings 2</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#verify_email">
+              <span>Verify Email</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#approve_account">
+              <span>Approve Account</span>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#reset_password">
+              <span>Reset Password</span>
+            </a>
+          </li>
+
+          <li class="left-menu-title">
+            <a href="#content">
+              <strong><span>Content</span></strong>
+            </a>
+          </li>
+          <li class="left-menu-item">
+            <a href="#colors">
+              <span>Colors</span>
+            </a>
+          </li>
+
+          <li class="left-menu-title">
+            <h6>
+              <a href="#others"><span>Orhers</span></a>
+            </h6>
+          </li>
+          <li class="left-menu-title">
+            <h6>
+              <a href="#helpSupport"><span>Help & Support</span></a>
+            </h6>
+          </li>
+          <li class="left-menu-title">
+            <h6>
+              <a href="#ThankYou">Thank You</a>
+            </h6>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <aside class="main-content-area">
+      <div class="main-content container-fluid">
+        <div class="fixed-top d-none">
+          <ul class="inline-fixed-ul">
+            <li>
+              <a href="#getting-started" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> Getting Started
+              </a>
+            </li>
+
+            <li>
+              <a href="#server-requirements" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> Server
+                Requirements
+              </a>
+            </li>
+            <li>
+              <a href="#file-permissions" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> File Permissions
+              </a>
+            </li>
+            <li>
+              <a href="#database" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> Database
+              </a>
+            </li>
+            <li>
+              <a href="#credentials" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> Credentials
+              </a>
+            </li>
+            <li>
+              <a href="#user-menual-ov" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> Overview
+              </a>
+            </li>
+            <!-- Settings -->
+            <li>
+              <a href="#hrm-settings" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> Settings
+              </a>
+            </li>
+            <li>
+              <a href="#hhrm_features" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> Features
+              </a>
+            </li>
+            <li>
+              <a href="#hhrm_how_to_use" class="card-title">
+                <i class="fa fa-book" aria-hidden="true"></i> How to use
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ============== Big Title Section ============================ -->
+        <div class="mt-40">
+          <h3 id="getting-started" class="first-title">
+            Welcome to <h4>OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More.</h4>
+          </h3>
+        </div>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <p>
+            We are glad to introduce to you <strong>OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More.</strong>, a great deal of
+            completeness and compact
+            Starter Kits for web application Laravel developers. A starter kit is a set of things needed to get
+            something created or set up.
+            Here we can rep to a good start to build any type of Laravel application. Here we are providing only what's
+            necessary to build any
+            Laravel application. We have features like User $ Roles, Language, Setting, etc. Basically, this
+            <strong>OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More.</strong> web application is built under <strong>Laravel
+              Version 9</strong>.
+            <br />
+          </p>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <h4 id="keyfeatures" class="second-title">
+              Key Features
+            </h4>
+            <div class="content-header"></div>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Easy installation process
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Fully responsive and dynamic user panel
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Easy to signup & sign in
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Forgot password
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Good-looking & user-friendly front-end
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Easy to manage site contents
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Managing Users and Roles
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Managing Language
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Managing Settings
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <h4 id="server-requirements" class="second-title">
+              Server Requirements
+            </h4>
+            <div class="content-header"></div>
+            <blockquote class="quote-indigo mt-0">
+              <h5>Note!</h5>
+              <p>
+                To begin installation
+                <a href="#">OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More.</a> your server must have to satisfy
+                some requiremnts as well as some extensions.
+              </p>
+            </blockquote>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                PHP &gt;= 8.1
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                MySQLi
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                GD
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                cURL
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                date. timezone
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                BCMath PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                allow_url_fopen
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Ctype PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Fileinfo PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                JSON PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Mbstring PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                OpenSSL PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                PDO PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Tokenizer PHP Extension
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                XML PHP Extension
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        <!-- ============== Section ============================ -->
+
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <h4 id="file-permissions" class="second-title">
+              File Writable Permissions
+            </h4>
+            <div class="content-header"></div>
+            <blockquote class="quote-danger mt-0">
+              <h5>Attention!</h5>
+              <p>
+                Please make sure you have set the
+                <span class="text-danger">writable permission</span> on the
+                following folders/files:
+              </p>
+            </blockquote>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                /routes
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                /resources
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                /public
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                /storage
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                .env
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- ============== Big Title Section ============================ -->
+        <div class="mt-70 border-top">
+          <h3 id="database" class="first-title">Database</h3>
+        </div>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <h4 id="create-database" class="second-title">Create Database</h4>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+            <blockquote class="quote-danger">
+              <h5>Attention!</h5>
+              <p>
+                Do not use a password that contains a #(Hash) character (It
+                will be treated as a comment).
+              </p>
+            </blockquote>
+            <p>
+              You’ll need to create a new database along with a user to access
+              it. Follow the steps below:
+            </p>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Give your database a name e.g laravel_stater_kits
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Create a database user and set up a password
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Add the user to the database and give the user All privileges
+                to the database
+              </li>
+            </ul>
+            <p class="d-none">
+              Most hosting companies provide an interface to handle this or
+              you can run the SQL statements below.
+            </p>
+            <div class="language-bash highlighter-rouge d-none">
+              <div class="highlight">
+                <pre class="highlight" style="position: relative"><code class="d-flex flex-column p-2 text-dark"><span class="nt">CREATE DATABASE onno_db;</span>
+                <span class="nt">CREATE USER 'hrm_db' IDENTIFIED BY 'hrm_db@@'; </span>
+                <span class="nt">GRANT ALL PRIVILEGES ON onno_db.* to hrm_db@'%' identified by 'hrm_db@@'; </span>
+                <span class="nt">FLUSH PRIVILEGES;</span></code></pre>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <h4 id="import-database" class="second-title">Import Database</h4>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+            <blockquote class="quote-danger">
+              <h5>Attention!</h5>
+              <p>
+                After creating a project you have to import the database from the project root & database file name is
+                database.sql
+              </p>
+            </blockquote>
+            <p>
+              After extracting our given Main_File.zip you will get database.sql. You’ll need to import this to a
+              database along with a user to access
+              it. Follow the steps below:
+            </p>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Login to your server
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Go to <strong>phpMyAdmin</strong>
+                <p><img src="./images/phpMyAdmin.jpg" alt=""></p>
+                The phpMyAdmin administration page appears in a new window.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                In the left pane of the phpMyAdmin page, click the database that you want to import the data into
+                e.g laravel_stater_kits.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Click the <strong> Import</strong> tab.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Under <strong>File to Import</strong>, click Browse, and then select the database.sql file on your local
+                computer.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Click <strong>Go</strong>. The import process runs
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                The database should now contain the data that is in the database.sql file.
+              </li>
+            </ul>
+            <p class="d-none">
+              Most hosting companies provide an interface to handle this or
+              you can run the SQL statements below.
+            </p>
+            <div class="language-bash highlighter-rouge d-none">
+              <div class="highlight">
+                <pre class="highlight" style="position: relative"><code class="d-flex flex-column p-2 text-dark"><span class="nt">CREATE DATABASE onno_db;</span>
+                <span class="nt">CREATE USER 'hrm_db' IDENTIFIED BY 'hrm_db@@'; </span>
+                <span class="nt">GRANT ALL PRIVILEGES ON onno_db.* to hrm_db@'%' identified by 'hrm_db@@'; </span>
+                <span class="nt">FLUSH PRIVILEGES;</span></code></pre>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <h4 id="import-database-local" class="second-title">Import Database Local</h4>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+            <p>
+              After extracting our given Main_File.zip you will get database.sql. You’ll need to import this to a
+              database along with a user to access
+              it. Follow the steps below:
+            </p>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Open your local server
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Go to <strong>phpMyAdmin</strong>
+                <p><img src="./images/phpMyAdmin.jpg" alt=""></p>
+                The phpMyAdmin administration page appears in a new window.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                In the left pane of the phpMyAdmin page, click the database that you want to import the data into
+                e.g laravel_stater_kits.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Click the <strong> Import</strong> tab.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Under <strong>File to Import</strong>, click Browse, and then select the database.sql file on your local
+                computer.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Click <strong>Go</strong>. The import process runs
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                The database should now contain the data that is in the database.sql file.
+              </li>
+            </ul>
+            <div class="language-bash highlighter-rouge d-none">
+              <div class="highlight">
+                <pre class="highlight" style="position: relative"><code class="d-flex flex-column p-2 text-dark"><span class="nt">CREATE DATABASE onno_db;</span>
+                <span class="nt">CREATE USER 'hrm_db' IDENTIFIED BY 'hrm_db@@'; </span>
+                <span class="nt">GRANT ALL PRIVILEGES ON onno_db.* to hrm_db@'%' identified by 'hrm_db@@'; </span>
+                <span class="nt">FLUSH PRIVILEGES;</span></code></pre>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <h4 id="local-setup" class="second-title">Local Setup</h4>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+            <p>
+              First, you need to select a local server and setup it up. You can use any local server like wamp server,
+              xampp server laragon, etc.
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                If you want to install the <strong>Wamp serve</strong> <a
+                  href="https://www.w3resource.com/php/installation/install-wamp.php">
+                  https://www.w3resource.com/php/installation/install-wamp.php</a> Go to the link and follow the
+                tutorial
+
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Or if you want to install <strong>Laragon</strong> We recommand you to go with this<a
+                  href="https://www.wdb24.com/how-to-install-laragon-on-windows-10/">
+                  https://www.wdb24.com/how-to-install-laragon-on-windows-10/</a> Go to the link and follow the tutorial
+
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Or if you want to install <strong>Xampp</strong> We recommand you to go with this<a
+                  href="https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/">
+                  https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/</a>
+                Go to the link and follow the tutorial
+
+              </li>
+            </ul>
+            <br>
+            <strong> Or if you want to setup any other then setup and follow our docs</strong> <br>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Install an <strong>IDE</strong></p>
+
+              </li>
+            </ul>
+            <strong> ##Mac Os, Ubuntu and windows users continue here:</strong> <br>
+
+            After extracting your given Main_File.zip you will get database.sql and a Mail_File move this main file to
+            your server path folder.
+            Open<strong>cmd</strong> inside Main_File .</p>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Download composer and Install it <a
+                  href="https://getcomposer.org/download/">https://getcomposer.org/download/</a>
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Rename the .env.example file to .envinside your project root and fill in the database information.
+                (windows won't let you do it,
+                so you have to open your console cd your project root directory, and run mv .env.example .env )
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                In the left pane of the phpMyAdmin page, click the database that you want to import the data into e.g
+                laravel_stater_kits.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Run <strong>composer install</strong> or <strong>php composer.phar</strong> install
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Run <strong> php artisan key:generate </strong>
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Run <strong> php artisan migrate </strong>
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Run <strong>php artisan db:seed </strong>to run seeders
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Run <strong>php artisan serve </strong> You can now access your project at localhost:8000
+                <strong>Or follow your sever process</strong>
+              </li>
+            </ul>
+            <p class="d-none">
+              Most hosting companies provide an interface to handle this or
+              you can run the SQL statements below.
+            </p>
+            <div class="language-bash highlighter-rouge d-none">
+              <div class="highlight">
+                <pre class="highlight" style="position: relative"><code class="d-flex flex-column p-2 text-dark"><span class="nt">CREATE DATABASE onno_db;</span>
+                <span class="nt">CREATE USER 'hrm_db' IDENTIFIED BY 'hrm_db@@'; </span>
+                <span class="nt">GRANT ALL PRIVILEGES ON onno_db.* to hrm_db@'%' identified by 'hrm_db@@'; </span>
+                <span class="nt">FLUSH PRIVILEGES;</span></code></pre>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Big Title Section ============================ -->
+        <div class="mt-70 border-top">
+          <h3 id="installation" class="first-title">Installation</h3>
+        </div>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+            <blockquote class="quote-danger">
+              <h5>Note!</h5>
+              <p>
+                <strong>OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More.</strong> PHP Laravel Script can only be installed using
+                the
+                installer.
+              </p>
+            </blockquote>
+            <blockquote class="quote-danger">
+              <h5>Attention!</h5>
+              <p>
+                Before going for installation make sure to
+                <a href="requirements.html">fulfill the requirements and writable permissions</a>.
+              </p>
+            </blockquote>
+          </div>
+          <h4 id="file-setup" class="second-title">File Setup</h4>
+          <div class="content-wrapper px-4 py-2">
+            <p>Just simply follow the steps, and our installer will handle
+              all the process of installation. You don't need to do anything
+              manually.
+            </p>
+            <ul>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Step:1 Download Main_File.zip from
+                <a href="https://codecanyon.net/downloads">CodeCanyon</a>
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Extract Main_File.zip
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Go inside the "source_code" folder and make zip all files & folders.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Upload the zip file to your server public_html or www or root directory.
+              </li>
+              <li>
+                <span class="me-1"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                Open the browser and hit your server URL. Example: https://examplenews.com/
+              </li>
+            </ul>
+            <blockquote class="quote-danger">
+              <h5>Attention!</h5>
+              <p>Please don't include "/public" at the end of your URL and root directory.</p>
+            </blockquote>
+          </div>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+            <blockquote class="quote-danger">
+              <h5>Note!</h5>
+              <p>
+                <strong>OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More.</strong> PHP Laravel Script can only be installed using
+                the
+                installer.
+              </p>
+            </blockquote>
+            <blockquote class="quote-danger">
+              <h5>Attention!</h5>
+              <p>
+                Before going for installation make sure to
+                <a href="requirements.html">fulfill the requirements and writable permissions</a>.
+              </p>
+            </blockquote>
+          </div>
+          <h4 id="File_Structure" class="second-title">File Structure</h4>
+          <div class="content-wrapper px-4 py-2">
+           
+            
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <p>Header file Structure</p>
+                  <div class="thumb mb-4">
+                    <img src="./screenshots/haderFile.png" alt="">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p>Footer file Structure</p>
+                  <div class="thumb">
+                    <img src="./screenshots/footerFile.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Big Title Section ============================ -->
+        <div class="mt-70 border-top" id="superAdminPanel">
+          <h3 id="Change" class="first-title">
+            Super Admin Panel Usage Guidelines
+          </h3>
+        </div>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2" id="superAdminPanel">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="Registration" class="second-title">Registration</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>A registration process is where you can register some users with their specific identities. We do it
+              because we want to give different users
+              different facalitys. For this purpose in this section, you will have a registration form where you can
+              input your Name, Email, Phone, Date of Birth
+              , Gender, Password, Confirm Password, and agree to the privacy policy and terms.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/18.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="EmailVarify" class="second-title">Email Verification</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>After registration, you will have this verification email on your email. To Verify it you click the link
+              then you will be registered</p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/recoverPass.png" class="img-fluid" alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="Login" class="second-title">Login</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>By registration, you are accessing your facility we are protecting your information and facilities you
+              can access them by login to your account
+              In this section, you will have a login page where you have to provide your email and password to access
+              your facilities.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/18.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="ForgetPassword" class="second-title">Forget Password</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>It is possible that many times you will forget your password so we have a forgot password option where
+              you have to provide your email to get
+              reset the password link in your email.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/20.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="resetPassword" class="second-title">Reset Password Mail</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>To Reset Password you will get this mail</p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/recoverPass.png" class="img-fluid" alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="ResetPassword" class="second-title">Reset Password</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>By clicking your forgot password link from your email. You will have a reset password option where you
+              have to provide your email and
+              password and confirm password.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/20.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="superAdminDashboard" class="second-title">Super Admin Dashboard</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have
+                  dark mode available for
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>
+                  password:<code>123456</code>
+                </p>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/1LRT.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/1RTL.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/2LRT.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/2RTL.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/3LRT.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/3RTL.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/4LRT.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/4RTL.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="LightDark" class="second-title">Light Mode</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>In this section, you can light/dark mode if you click light you can see Light mode or if you click
+              Dark you can dark mode.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/1LRT.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="ChangeLanguage" class="second-title">Change Language</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>To change language first, click the language button then select language it will make change your
+              language</p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/languageChange.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/languageChangeRTL.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="SuperAdminProfile" class="second-title">Super Admin Profile</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>
+              In this super admin section, you can look after all network management. You will have the ability to
+              manage the access and level of
+              responsibility of all users on all sites on your network. You can manage network and site features
+              including access to themes and
+              privacy settings. You can reset passwords and change users’ profile details and can access all the Super
+              Admin menu items via the
+              Network Admin dashboard.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/supperAdmin_profile.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="UpdateProfile" class="second-title">Update Profile</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>In this section you can see and update your profile details like name, email, date of
+              birth, and phone.</p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/updatedProfile.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="ChangePassword" class="second-title">Change Password</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <p>In this section you can update your password</p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/chnagePassword.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="profile" class="second-title">Profile</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <p>In this section, you can see you profile.
+                </p>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/supperAdmin_profile.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="superAdminSetting" class="second-title">Settings</h4>
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <h5>General Setting</h5>
+            <p>
+              In these General Settings, you can configure the broad settings of your site including changing your
+              application name, footer text,
+              white logo, black logo, favicon, and default language. You can change these settings at any time by going
+              to Settings > General Setting,
+              making your desired changes, and then clicking the Update button.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/General.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <hr>
+            <h5>Storage Setting</h5>
+            <p>
+              In this section you can choose your file system it can be local or s3. If you chose s3 then you can update
+              your AWS ACCESS KEY ID,
+              AWS SECRET KEY, AWS DEFAULT REGION, AWS BUCKET,and AWS ENDPOINT.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/storage.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <hr>
+            <h5>Recaptcha Setting</h5>
+            <!-- <p>
+                In this section you can update your Recaptcha Sitekey, Recaptcha Secret and you can make active or deactive your Recaptcha Status.
+              </p> -->
+            <p>
+              You know Recaptcha protects your website from fraud and abuse without creating friction. Recaptcha uses an
+              advanced risk analysis
+              engine and adaptive challenges to keep malicious software from engaging in abusive activities on your
+              website. So we are providing
+              you with Recaptcha Settings. Where your Recaptcha Sitekey, Recaptcha Secret and you can make active or
+              Inactive your Recaptcha Status.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/Recaptcha.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <hr>
+            <h5>Email Setting</h5>
+            <!-- <p>
+                In this section you can update your Mail Drive, Mail host, Mail Address, From Name, Mail Username, Mail Password and you can update your Encryption.
+              </p> -->
+            <p>
+              We want to validate only real emails on our site. For this, we have to use some email hosting sites like
+              Google Workspace (G-Suite),
+              Microsoft 365 Email, etc. For different sites, we have to use different settings so in this section we are
+              providing you to update
+              your Mail Drive, Mail host, Mail Address, From Name, Mail Username, and Mail Password and you can update
+              your Encryption.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img src="./screenshots/email.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <hr>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+
+          <h4 id="companyUserRoles" class="second-title">User & Roles</h4>
+
+          <div class="content-wrapper px-4 py-2 row mb-3">
+            <h5>Users</h5>
+            <p>
+              In this section, the Super admin and admin can see all users. They can add new users where they have the
+              power to give new user
+              permission to create, update, or delete from the website. Like a visitor won't have permission to update
+              settings or add new users
+              or roles they will have only read permission. Or maybe we can have a moderator who can only add a new
+              language and read permission
+              to some features.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img class="mt-4" src="./screenshots/user.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <hr>
+            <h5>Roles</h5>
+            <p>
+              In this roles section, the Super admin and admin can see all roles and can create, delete and update new
+              roles like manager,
+              developers, moderation, visitors, etc.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img class="mt-4" src="./screenshots/user.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <hr>
+
+            <h4 id="languageType" class="second-title">Language</h4>
+            <p>
+              In this language section super admin, admin, and permitted person can see all languages and can create,
+              delete and update new language.
+              You can add and update the language name, code, and icon. Here if you add a new language like Arabic we
+              have features where you all
+              text of website will come to you on one page you just have to write the opposite of English in Arabic. And
+              also have LTR and RTL
+              facilities.
+            </p>
+            <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+              <img class="mt-4" src="./screenshots/lang.png"  alt="Home Page" alt="Pre-Installation" />
+            </div>
+            <hr>
+          </div>
+        </section>
+
+        <!-- ============== Big Title Section ============================ -->
+        <div class="mt-70 border-top" ">
+          <h3 id=" apiauthentication" class="first-title">
+          API Authentication
+          </h3>
+        </div>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header" id="staticAdminPanel"></div>
+          </div>
+          <h4 id="apiregistration" class="second-title">Register User REST API</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <p>
+                  This is this section you will create and setup sercure rest api authentication in our
+                  application using sanctum package.Laravel Sanctum provides a
+                  featherweight authentication system for SPAs (single page applications),
+                  mobile applications, and simple, token based APIs. Sanctum allows each
+                  user of your application to generate multiple API tokens for their
+                  account. These tokens may be granted abilities / scopes which specify
+                  which actions the tokens are allowed to perform.
+                </p>
+                <p>Open the Postman app, select the Post method from the dropdown. Enter the route or URL in the address
+                  bar, select the Body section, enter name, email, password and confirm the password and click on send
+                  to
+                  create a user using laravel sanctum auth api.</p>
+                <div id="endpoints" class="section-block">
+                  <h6>Available Endpoints</h6>
+                  <div class="table-responsive">
+                    <table class="table" border="1">
+                      <thead>
+                        <tr>
+                          <th>Method</th>
+                          <th>URl</th>
+                          <th>Parameters</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><strong class="text-warning">POST</strong></td>
+                          <td>/api/register</td>
+                          <td><code>{ name, email, password }</code></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/register-api.png" width="/100%" alt="Home Page" alt="Pre-Installation" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header" id="staticAdminPanel"></div>
+          </div>
+          <h4 id="apilogin" class="second-title">Login User REST API</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <p>
+                  Add the following URL in the postman address bar, switch the method to POST, enter email and password
+                  and
+                  click on send to login a user.
+                </p>
+                <div id="endpoints" class="section-block">
+                  <h6>Available Endpoints</h6>
+                  <div class="table-responsive">
+                    <table class="table" border="1">
+                      <thead>
+                        <tr>
+                          <th>Method</th>
+                          <th>URl</th>
+                          <th>Parameters</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><strong class="text-warning">POST</strong></td>
+                          <td>/api/login</td>
+                          <td><code>{ email, password }</code></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/login-api.png" class="img-fluid" alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============== Big Title Section ============================ -->
+        <div class="mt-70 border-top" id="staticTools">
+          <h3 id="Change" class="first-title">
+            Static Tools
+          </h3>
+        </div>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header" id="staticAdminPanel"></div>
+          </div>
+          <h4 id="dashboard_1" class="second-title">Dashboard 1</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/1LRT.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/1RTL.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <!-- ============== Section ============================ -->
+       <section>
+        <div class="content-wrapper px-4 py-2">
+          <div class="content-header" id="staticAdminPanel"></div>
+        </div>
+        <h4 id="dashboard_1" class="second-title">Dashboard 2</h4>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="content-wrapper px-4 py-2 row mb-3">
+              <!-- <p>
+                This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+              </p> -->
+              <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                <img src="./screenshots/2LRT.png"  alt="Home Page" alt="Pre-Installation" />
+              </div>
+              <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                <img src="./screenshots/2RTL.png"  alt="Home Page" alt="Pre-Installation" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ============== Section ============================ -->
+      <section>
+        <div class="content-wrapper px-4 py-2">
+          <div class="content-header" id="staticAdminPanel"></div>
+        </div>
+        <h4 id="dashboard_1" class="second-title">Dashboard 3</h4>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="content-wrapper px-4 py-2 row mb-3">
+              <!-- <p>
+                This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+              </p> -->
+              <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                <img src="./screenshots/3LRT.png"  alt="Home Page" alt="Pre-Installation" />
+              </div>
+              <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                <img src="./screenshots/3RTL.png"  alt="Home Page" alt="Pre-Installation" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============== Section ============================ -->
+      <section>
+        <div class="content-wrapper px-4 py-2">
+          <div class="content-header" id="staticAdminPanel"></div>
+        </div>
+        <h4 id="dashboard_1" class="second-title">Dashboard 4</h4>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="content-wrapper px-4 py-2 row mb-3">
+              <!-- <p>
+                This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+              </p> -->
+              <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                <img src="./screenshots/4LRT.png"  alt="Home Page" alt="Pre-Installation" />
+              </div>
+              <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                <img src="./screenshots/4RTL.png"  alt="Home Page" alt="Pre-Installation" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header" id="pricing"></div>
+          </div>
+          <h4 id="basic_pricing" class="second-title">Basic Pricing</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/pricing_1.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="pricing_table_1" class="second-title">Pricing Table 1</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/pricing_2.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="pricing_table_2" class="second-title">Pricing Table 2</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/pricing_3.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="pricing_table_3" class="second-title">Pricing Table 3</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/pricing_4.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header" id="forms"></div>
+          </div>
+          <h4 id="form_elements" class="second-title">Form Elements</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/form_elements_1.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/form_elements_2.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/form_elements_3.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="input_group" class="second-title">Input Group</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/form_elements_3.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="form_validation" class="second-title">Form Validation</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/formValidation.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="sign_in" class="second-title">Sign In</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/login.png" class="img-fluid" alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="sigin_up" class="second-title">Sigin Up</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/18.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="reset_password_table" class="second-title">Reset Password</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/20.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="recover_password" class="second-title">Recover Password</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/20.png" class="img-fluid" alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2" id="table">
+            <div class="content-header">
+
+            </div>
+          </div>
+          <h4 id="basic_table" class="second-title">Basic Table</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/basicTable.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="data_table" class="second-title">Data Table</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/dataTable.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header" id="email_tamplates"></div>
+          </div>
+          <h4 id="promotional" class="second-title">Promotional</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/Promotional.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="promotional_2" class="second-title">Promotional 2</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/Promotional2.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="greetings" class="second-title">Greetings</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/Greetings.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="greetings_2" class="second-title">Greetings 2</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/greetings2.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="reset_password" class="second-title">Reset Password</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/20.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="verify_email" class="second-title">Verify Email</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/Verify_Email.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="approve_account" class="second-title">Approve Account</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 mb-3">
+                  <img src="./screenshots/91.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2" id="reset_password">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="reset_password_table" class="second-title">Reset Password</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/20.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="colors" class="second-title">Colors</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <!-- <p>
+                  This is the super admin dashboard where the admin can see all status and revenue at a glance. We have dark mode available for 
+                  every page. For login to Super admin email: <code>superadmin@onest.com</code>  password:<code>123456</code>
+                </p> -->
+                <div class="col-12 col-md-6 col-xl-6 col-lg-6 mb-3">
+                  <img src="./screenshots/colors.png"  alt="Home Page" alt="Pre-Installation" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2" id="others">
+            <div class="content-header"></div>
+          </div>
+          <h4 class="second-title">Others</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <p>
+                  You will have more features like a User profile will have an overview. Authentication will have
+                  Error403, Error404,
+                  Error 500, Error 502, Comming soon, and maintenance page. The FAQ will have Classic FAQ and Extended
+                  FAQ.
+                  The timeline will have Basic Timeline, Split Timeline, and Centered Timeline. The chart will have an
+                  Apex chart and Chartjs.
+                  And more feathers like Multi-level, Widget, ECommerce, Icon, Components and many more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+          <h4 id="helpSupport" class="second-title">Help & Support</h4>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="content-wrapper px-4 py-2 row mb-3">
+                <p>
+                  Mail: <a href="mailto:honesttradersbd@gmail.com">honesttradersbd@gmail.com</a>
+                </p>
+                <p>WhatsApp: <a
+                    href="https://api.whatsapp.com/send?phone=8801810038852&amp;text=Hello%20this%20is%20the%20starting%20message"
+                    rel="nofollow">+8801810038852</a>
+                </p>
+                <p>Skype: <a href="mailto:honesttradersbd@gmail.com">honesttradersbd@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============== Section ============================ -->
+        <section>
+          <div class="content-wrapper px-4 py-2">
+            <div class="content-header"></div>
+          </div>
+
+          <h4 id="ThankYou" class="second-title">Thank You!</h4>
+
+          <div class="content-wrapper px-4 py-2">
+            <p>
+              Again, thank you for purchasing <b>OnestDrax - Laravel Admin Dashboard Starter Kit with User Manager, Role, Permission, Language Manage with RTL & More..</b> If you need some help or support
+              please use the email or
+              contact form via codecanyon <a href="#"> Profile site.</a> Hope you happy with the Laravel & Bootstrap
+              Admin Starter Kit,
+              all the best with your business.
+            </p>
+          </div>
+      </div>
+      </section>
+      </div>
+    </aside>
+  </main>
+
+  <script src="assets/js/jquery.2.2.4.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

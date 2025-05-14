@@ -1,0 +1,105 @@
+.faq {
+    .faq-card {
+      background: $ot-bg-tertiary;
+      margin-bottom: 10px;
+      .card {
+        margin-bottom: 10px;
+        border: 1px solid #eeeeee;
+        border-radius: 2px;
+        .card svg {
+          position: absolute;
+          left: 25px;
+        }
+        .card-header {
+          background: $ot-bg-secondary;
+          h5 {
+            button {
+              width: 100%;
+              background: $ot-bg-secondary;
+              padding: 10px 20px;
+              text-align: left;
+              font-family: "Lexend";
+              font-size: 16px;
+              text-decoration: none;
+              font-weight: 500;
+              color: $ot-text-title;
+            }
+          }
+        }
+        .card-body {
+          background: $ot-bg-secondary;
+          border-top: 1px solid #eeeeee;
+          p {
+            font-family: "Lexend";
+            font-size: 14px;
+            padding: 10px 20px;
+            color: $ot-text-primary;
+          }
+        }
+        &:hover {
+          border: 1px solid blue;
+        }
+      }
+      .faq-title {
+        h6 {
+          font-size: 20px;
+          margin: 30px 0px 30px 0px;
+        }
+      }
+    }
+  }
+
+.faq-card{
+    .ot-accordion-cust{
+        .accordion-item{
+            margin-bottom: 10px;
+            border: 1px solid $ot-bg-badge-primary;
+            border-radius: 2px;
+            .accordion-header{
+                background: linear-gradient(90deg, #0f6aff 0%, #21c6fb 100%);
+                button{
+                    background: linear-gradient(90deg, #0f6aff 0%, #21c6fb 100%);
+                    color: #ffffff;
+                }
+            }
+            .accordion-body {
+                background: $ot-bg-secondary;
+                color: $ot-text-primary;
+            }
+        }
+    }
+    .ot-accordion-border{
+        .accordion-item{
+            margin-bottom: 10px;
+            border:1px solid blue;
+            .accordion-header{
+                button{
+                    background:$ot-bg-secondary ;
+                    color: blue;
+                }
+            }
+            .accordion-body {
+                background: $ot-bg-secondary;
+                color: $ot-text-primary;
+            }
+        }
+    }
+    .accordion-no-border{
+        .accordion-item{
+            margin-bottom: 10px;
+            border: 1px solid #ffffff;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .1);
+            .accordion-header{
+                background: $ot-bg-tertiary;
+                button{
+                    background:$ot-bg-secondary ;
+                    color: $ot-text-subtitle;
+                }
+            }
+            .accordion-body {
+                background: $ot-bg-secondary;
+                color: $ot-text-primary;
+            }
+        }
+    }
+}

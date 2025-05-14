@@ -1,0 +1,170 @@
+/* updated styles here  */
+/* reset style  */
+/* color  */
+.grayText{
+    color: #6f767e ;
+  }
+  .titleText{
+    color: #3b3b3b ;
+  }
+  .dangerColor{
+    color: #FE2E00;
+  }
+  .greenColor{
+    color: #15b974;
+  }
+  .mb_15{
+    margin-bottom: 15px;
+  }
+  .gap_8{
+    grid-gap: 8px;
+  }
+  .gap_10{
+    grid-gap: 10px;
+  }
+  .gap_15{
+    grid-gap: 15px;
+  }
+  .gap_20{
+    grid-gap: 20px;
+  }
+  /* font size  */
+  .fs_10{
+    font-size: 10px;
+  }
+  .fs_12{
+    font-size: 12px;
+  }
+  .fs_14{
+    font-size: 14px;
+  }
+  .fs_16{
+    font-size: 16px;
+  }
+  .fs_18{
+    font-size: 18px;
+  }
+  .fs_15{
+    font-size: 15px;
+  }
+  .fs_20{
+    font-size: 20px;
+  }
+  .fs_25{
+    font-size: 25px;
+  }
+  .fs_30{
+    font-size: 30px;
+  }
+  .fs_35{
+    font-size: 35px;
+  }
+  .fs_40{
+    font-size: 40px;
+  }
+  .fs_45{
+    font-size: 45px;
+  }
+  .fs_50{
+    font-size: 50px;
+  }
+  .fs_55{
+    font-size: 55px;
+  }
+  .fs_60{
+    font-size: 60px;
+  }
+  .fs_65{
+    font-size: 65px;
+  }
+  .fs_70{
+    font-size: 70px;
+  }
+  .fs_80{
+    font-size: 80px;
+  }
+  
+  .fw_300{
+    font-weight: 300;
+  }
+  .fw_400{
+    font-weight: 400;
+  }
+  .fw_500{
+    font-weight: 500;
+  }
+  .fw_600{
+    font-weight: 600;
+  }
+  .fw_700{
+    font-weight: 700;
+  }
+  .fw_800{
+    font-weight: 800;
+  }
+  /* MAX_WIDTH */
+  .max_240{
+    max-width: 240px;
+  }
+  /* crm styles  */
+  .otProject_single{
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 15px 13px;
+    grid-gap: 10px;
+  }
+  .otProject_subText{
+    border-radius: 8px;
+  }
+  .assigne_imgs{
+    margin:3px 0 0 6px;
+  }
+  .assigne_imgs .assigne_img{
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      background: #fff;
+      padding: 0.5px;
+      margin-left: -6px;
+      position: relative;
+      z-index: 1;
+  }
+  .assigne_img.assingneCount{
+    background: #0F6AFF;
+    border: 0.5px solid #FFFFFF;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+  
+  }
+  .otProject_singleSep {
+    flex: 1 1 0;
+  }
+  /* event style  */
+
+  .otEvent_singleSep{
+    position: relative;
+  }
+  .otEvent_single{
+    padding-left: 24px;
+    position: relative;
+  }
+  .otEvent_single::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #15B974;
+  }
+  .otEvent__wrapper h4 {
+    margin-bottom: 10px;
+  }
+  /* BUTTON STYLE  */
+  .ot_crm_btn{
+    background: #F4F4F4;
+    border-radius: 8px;
+    padding: 22.5px 10px;
+  }

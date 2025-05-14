@@ -1,0 +1,245 @@
+.color-title {
+  background-color: transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.05));
+  h4 {
+    font-size: 24px;
+  }
+}
+.color-background {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+
+  /* Primary Blue */
+
+  &.bg-blue-primary {
+    background: $blue-primary;
+  }
+  &.bg-blue-dark {
+    background: $blue-dark;
+  }
+  &.bg-blue-tint {
+    background: $blue-tint;
+  }
+  &.bg-blue-tint-light {
+    background: $blue-tint-light;
+  }
+
+  /* Secondary Cyan  */
+
+  &.bg-cyan-primary {
+    background: $cyan-primary;
+  }
+  &.bg-cyan-dark {
+    background: $cyan-dark;
+  }
+  &.bg-cyan-tint {
+    background: $cyan-tint;
+  }
+  &.bg-cyan-tint-light {
+    background: $cyan-tint-light;
+  }
+
+  /* Success */
+
+  &.bg-success-primary {
+    background: $success-primary;
+  }
+  &.bg-success-dark {
+    background: $success-dark;
+  }
+  &.bg-success-tint {
+    background: $success-tint;
+  }
+  &.bg-success-tint-light {
+    background: $success-tint-light;
+  }
+
+  /* Danger */
+
+  &.bg-danger-primary {
+    background: $danger-primary;
+  }
+  &.bg-danger-dark {
+    background: $danger-dark;
+  }
+  &.bg-danger-tint {
+    background: $danger-tint;
+  }
+  &.bg-danger-tint-light {
+    background: $danger-tint-light;
+  }
+
+  /* Warning */
+
+  &.bg-warning-primary {
+    background: $warning-primary;
+  }
+  &.bg-warning-dark {
+    background: $warning-dark;
+  }
+  &.bg-warning-tint {
+    background: $warning-tint;
+  }
+  &.bg-warning-tint-light {
+    background: $warning-tint-light;
+  }
+
+  /* Accent */
+
+  &.bg-accent-green {
+    background: $accent-green;
+  }
+  &.bg-accent-blue {
+    background: $accent-blue;
+  }
+  &.bg-accent-purple {
+    background: $accent-purple;
+  }
+  &.bg-accent-light-green {
+    background: $accent-light-green;
+  }
+  &.bg-accent-light-blue {
+    background: $accent-light-blue;
+  }
+  &.bg-accent-light-purple {
+    background: $accent-light-purple;
+  }
+  &.bg-accent-light-orange {
+    background: $accent-light-orange;
+  }
+
+
+  &.bg-info-dark {
+    background: var(--info-dark);
+  }
+  &.bg-info-main {
+    background: var(--info-main);
+  }
+  &.bg-info-tin1 {
+    background: var(--info-tint-1);
+  }
+  &.bg-info-tin2 {
+    background: var(--info-tint-2);
+  }
+  &.bg-warn-dark {
+    background: var(--warn-dark);
+  }
+  &.bg-warn-main {
+    background: var(--warn-main);
+  }
+  &.bg-warn-tin1 {
+    background: var(--warn-tint-1);
+  }
+  &.bg-warn-tin2 {
+    background: var(--warn-tint-2);
+  }
+}
+.color-name-bg {
+  background: $ot-bg-primary;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  &.color-primary-main {
+    color: var(--blue-primary);
+  }
+  span{
+    color:$ot-text-primary;
+  }
+}
+.accent {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.05));
+
+  position: relative;
+  &.accent-light-green {
+    background: var(--accent-light-green);
+  }
+  &.accent-light-purple {
+    background: var(--accent-light-purple);
+  }
+  &.accent-light-blue {
+    background: var(--accent-light-blue);
+  }
+  &.accent-light-orange {
+    background: var(--accent-light-orange);
+  }
+  &.accent-green {
+    background: var(--accent-green);
+  }
+  &.accent-blue {
+    background: var(--accent-blue);
+  }
+  &.accent-purple {
+    background: var(--accent-purple);
+  }
+  span {
+    position: absolute;
+    bottom: 10px;
+    padding-left: 5px;
+  }
+}
+
+.typo {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.05));
+
+  position: relative;
+  &.typo-black-dark {
+    background: var(--typo-black-dark);
+  }
+  &.typo-black-main {
+    background: var(--typo-black-main);
+  }
+  &.typo-black-bold {
+    background: var(--typo-black-bold);
+  }
+  &.typo-black-light {
+    background: var(--typo-black-light);
+  }
+  &.typo-black-lighter {
+    background: var(--typo-black-lighter);
+  }
+
+  span {
+    position: absolute;
+    bottom: 10px;
+    padding-left: 5px;
+  }
+}
+.bgwhite {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.05));
+
+  position: relative;
+  &.bgwhite-dark {
+    background: var(--bgwhite-dark);
+  }
+  &.bgwhite-main {
+    background: var(--bgwhite-main);
+  }
+  &.bgwhite-tin1 {
+    background: var(--bgwhite-tin1);
+  }
+  &.bgwhite-tin2 {
+    background: var(--bgwhite-tin2);
+  }
+  &.typo-black-lighter {
+    background: var(--typo-black-lighter);
+  }
+
+  span {
+    position: absolute;
+    bottom: 10px;
+    padding-left: 5px;
+  }
+}

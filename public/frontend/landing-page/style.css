@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.layout-wapper {
+  max-width: 1440px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*================ nav start ============ */
+
+.navbar .container-fluid {
+  margin-top: 30px;
+  padding: 0px;
+}
+.navbar-nav {
+  gap: 30px;
+}
+.navbar-nav li a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #0b0a24;
+}
+/*================ nav end ============== */
+/* ============== banner section ============= */
+
+.banner-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+.box-banner-image img{
+  width: 100%;
+}
+/*================ button gradient start ============= */
+.btn-gradient-primary {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-image: linear-gradient(to right, #0f6aff, #0dbaf1);
+}
+.btn-gradient-primary:hover {
+  background-image: linear-gradient(to right, #0dbaf1, #0f6aff);
+}
+.btn-gradient-secondary {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 30px;
+  background: transparent;
+  color: #0f6aff;
+  border-radius: 5px;
+  border: solid 1px #0f6aff;
+}
+.btn-gradient-secondary:hover {
+  color: #fff;
+  background: linear-gradient(to right, #0dbaf1, #0f6aff);
+}
+/*================ button gradient end =============== */
+
+/*================ head-title start ==============*/
+
+.head-title h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f6aff;
+  margin-bottom: 14px;
+}
+.head-title h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #0b0a24;
+}
+.head-title p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.86;
+  color: #5b5675;
+  margin-top: 16px;
+}
+.button-group {
+  margin: 40px 0;
+  display: flex;
+  gap: 10px;
+}
+/*================ head-title end ==============*/
+/* =============== header image box start ============= */
+.image-box {
+  background-image: url(images/Pattern.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 504px;
+  margin: 50px auto 0px;
+}
+.box-layout {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.box-layout.top-left-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box-layout .image-group {
+  margin-top: 38px;
+}
+.box-layout .image-group img:hover {
+  transform: scale(1.5);
+}
+.box-layout.top-right-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.dashboard-image {
+  width: 61%;
+  margin-top: -100px;
+}
+.dashboard-image img {
+  width: 100%;
+}
+/* animatation images  */
+.top-left-img {
+  position: relative;
+  z-index: 1;
+  animation: mymove 2s infinite;
+}
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.top-right-img {
+  position: relative;
+  z-index: 1;
+  animation: mymoves 2s infinite;
+  text-align: end;
+}
+@keyframes mymoves {
+  0% {
+    top: 75px;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: 75px;
+  }
+}
+
+/* =============== text-image-section1 ============== */
+.box-1 {
+  margin-top: 192px;
+  margin-bottom: 120px;
+}
+.row.text-image-section1 {
+  gap: 109px;
+  padding: 0 10%;
+}
+.row.text-image-section1.responsive-col-reverse {
+  gap: 150px;
+  padding: 0 102px;
+}
+.icon-image {
+  margin-top: 116px;
+  margin-bottom: 20px;
+}
+.row.text-image-section1 .col h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  color: #111321;
+  margin-bottom: 10px;
+}
+.row.text-image-section1 .col p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
+  color: #5b5675;
+  margin-bottom: 30px;
+}
+.row.text-image-section1 .col ul {
+  padding: 0px;
+}
+.row.text-image-section1 .col ul li {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: #5b5675;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.row.text-image-section1 .col ul li .fa {
+  background: #ecf8ff;
+  color: #5139ee;
+  padding: 5.5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.btn-gradient-primary:hover {
+	color: #fff;
+}
+.btn-gradient-primary {
+    text-decoration: none;
+}
+.btn-gradient-secondary{
+    text-decoration: none;
+}
+/*============== section 2 ============*/
+.bg-box-gradient {
+  position: relative;
+  /* background:linear-gradient(#e5f0f740, #ffffff); */
+}
+.bg-box-gradient > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.image-20-text {
+  height: 320px;
+  margin-top: 120px;
+  background-image: url(images/Path-4210.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 64%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 10%;
+}
+.image-20-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.86;
+  text-align: center;
+  color: #0f6aff;
+  text-transform: uppercase;
+}
+.image-20-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #191b30;
+}
+.bg-box-gradient .row {
+    margin: 60px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.bg-box-gradient .row .col-10 {
+  border-radius: 10px;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  transition: .3s;
+}
+.bg-box-gradient .row .col-10:hover {
+  box-shadow: 0 0 14px 0 rgba(114, 114, 114, 0.52);
+}
+.bg-box-gradient .row .col-10 img {
+  border-radius: 10px;
+  width: 100%;
+}
+.bg-box-gradient .row h6 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #191b30;
+}
+.bg-box-gradient .row p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.86;
+  text-align: left;
+  color: #626974;
+}
+.bg-box-gradient .row .col-10 .circul {
+  margin: 10px;
+}
+.bg-box-gradient .row .col-10 .circul .fa {
+  font-size: 10px;
+  color: #ececed;
+}
+
+/* -==================== section 3 ============ */
+
+.bg-top-right-img {
+  margin-top: 80px;
+}
+.bg-top-right-img > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-2 .row {
+  padding: 0 11%;
+}
+.box-2 .row .col img {
+  width: 100%;
+}
+.box-2 .row .col h1 {
+  font-family: 'Poppins', sans-serif;
+  margin: 34px 32px 20px 0px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  color: #191b30;
+}
+.box-2 .row .col p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
+  color: #626974;
+}
+
+.box-3 {
+  position: relative;
+}
+.box-3 .bg-image {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  z-index: -1;
+  height: 70%;
+}
+.box-3 .bg-image img {
+  width: 85%;
+  height: 45%;
+}
+.box-3 .row {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  z-index: 1;
+}
+.box-3 .row .col-10 {
+  padding: 32px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.02);
+  border: solid 1px #f8f7fc;
+  background-color: #fff;
+}
+.box-3 .row .col-10:hover {
+  box-shadow: 0px 0px 10px 0 rgba(114, 114, 114, 0.308);
+}
+.box-3 .row .col-10 img {
+  margin-bottom: 24px;
+}
+.box-3 .row .col-10 h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #0b0a24;
+}
+.box-3 .row .col-10 p {
+  font-family: 'Poppins', sans-serif;
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
+  color: #5b5675;
+}
+
+/* ================ footer start =============== */
+.footer {
+	margin-top: 80px;
+	padding: 90px 0;
+}
+
+.footer > p span a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px 0 0;
+  padding: 3px 10px 4px 11px;
+  text-transform: uppercase;
+  border-radius: 12px;
+  background-color: #fd4949;
+}
+.footer h1 span {
+  color: #0f6aff;
+}
+.footer h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.86;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 22px;
+}
+/* col-lg-3 width: 28.5%  */
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 28.5% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* .top-left-img img,
+  .top-right-img img {
+    width: 80%;
+  }
+  .dashboard-image {
+    margin-top: -50px;
+  } */
+  .navbar{
+    padding: 0.5rem 5%;
+  }
+  .banner-section{
+    padding: 5%;
+  }
+  .box-banner-image{
+    width: 50%;
+  }
+  .image-box {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .buy-now {
+    float: right;
+  }
+  .navbar-toggler-icon {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .banner-section{
+    padding: 10% 0 5%;
+  } */
+  .box-banner-image{
+    display: none;
+  }
+
+  .box-3 .bg-image {
+    height: 100%;
+    top: 10px;
+    left: 13%;
+    z-index: -1;
+  }
+  .box-3 .bg-image img {
+    width: 85%;
+    height: 45%;
+  }
+  .box-1 {
+    margin-top: 0%;
+    margin-bottom: 8%;
+  }
+  .image-box {
+    height: 381px;
+  }
+  /* .dashboard-image {
+    margin-top: -10px;
+  }
+  .top-left-img img,
+  .top-right-img img {
+    width: 70%;
+  } */
+  .row.text-image-section1 {
+    gap: 50px;
+  }
+  .responsive-col-reverse {
+    flex-direction: column-reverse;
+  }
+  .image-20-text {
+    margin-top: 5%;
+  }
+  .bg-box-gradient > img {
+    display: none;
+  }
+  .bg-top-right-img > img {
+    display: none;
+  }
+  .bg-top-right-img {
+    padding-top: 0%;
+    margin-top: 0px;
+  }
+  .box-2 {
+    padding-top: 10%;
+  }
+  .footer {
+    margin-top: 10%;
+    padding: 10% 0;
+  }
+}
+/* When the screen is less than 768 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 768px) {
+  .head-title {
+    margin-top: 8%;
+    padding-bottom: 2%;
+  }
+  .head-title h1 {
+    font-size: 36px;
+  }
+  .head-title p {
+    font-size: 12px;
+  }
+  .image-box {
+    height: 350px;
+  }
+  .top-left-img img {
+    width: 90%;
+  }
+  .top-right-img img {
+    width: 75%;
+  }
+  .box-1 {
+    margin-top: 12px;
+  }
+  .icon-image {
+    margin-top: 18px;
+  }
+  .image-20-text p {
+    font-size: 12px;
+  }
+  .image-20-text h1 {
+    font-size: 36px;
+  }
+  .box-2 .row {
+    flex-direction: column;
+    padding: 0 5%;
+    gap: 5%;
+  }
+  .box-2 {
+    padding-top: 40px;
+  }
+  .box-2 .row .col p {
+    font-size: 12px;
+  }
+  .box-2 .row .col h1 {
+    font-size: 36px;
+  }
+  .row.text-image-section1.responsive-col{
+    flex-direction: column;
+  }
+  .row.text-image-section1 .col > img{
+    width: 100%;
+  }
+  .responsive-col-reverse {
+    flex-direction: column-reverse;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .footer h1 {
+    font-size: 36px;
+  }
+  .image-20-text {
+    margin-top: 0%;
+  }
+  .row.text-image-section1 {
+    margin: 12% 0px;
+  }
+  .bg-top-right-img {
+    padding-top: 10%;
+    position: relative;
+    margin-top: 0%;
+  }
+}
+/* When the screen is less than 580 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 580px) {
+  .head-title h1 {
+    font-size: 26px;
+  }
+  .head-title p {
+    font-size: 9px;
+  }
+  .btn-gradient-primary {
+    font-size: 11px;
+    padding: 10px;
+  }
+  .btn-gradient-secondary {
+    font-size: 11px;
+    padding: 8px;
+  }
+  .row.text-image-section1 .col > img {
+    width: 100%;
+  }
+  .row.responsive-col {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 5%;
+  }
+  .row.text-image-section1 .col h1 {
+    font-size: 26px;
+  }
+  .row.text-image-section1 .col p {
+    font-size: 11px;
+  }
+  .row.text-image-section1 .col ul li {
+    font-size: 11px;
+  }
+  .row.text-image-section1.responsive-col-reverse {
+    gap: 15%;
+    padding: 0 5%;
+  }
+  .responsive-col-reverse {
+    flex-direction: column-reverse;
+  }
+  .image-20-text p {
+    font-size: 9px;
+  }
+  .image-20-text h1 {
+    font-size: 26px;
+  }
+  .box-2 .row .col p {
+    font-size: 9px;
+  }
+  .box-2 .row .col h1 {
+    font-size: 26px;
+  }
+  .image-box {
+    display: none;
+  }
+  .head-title .button-group {
+    margin: 20px 0 40px 0;
+  }
+  .footer p {
+    font-size: 9px;
+  }
+  .footer h1 {
+    font-size: 26px;
+  }
+}
+/* When the screen is less than 320 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 320px) {
+  .head-title h3 {
+    font-size: 12px;
+  }
+  .head-title h1 {
+    font-size: 18px;
+  }
+  .head-title p {
+    font-size: 8px;
+  }
+  .image-box {
+    display: none;
+  }
+  .head-title .button-group {
+    margin: 20px 0;
+  }
+  .box-layout {
+    width: 90%;
+    flex-direction: column;
+  }
+  .dashboard-image {
+    width: 100%;
+  }
+  .image-20-text p {
+    font-size: 8px;
+  }
+  .image-20-text h1 {
+    font-size: 18px;
+  }
+  .box-2 .row .col p {
+    font-size: 8px;
+  }
+  .box-2 .row .col h1 {
+    font-size: 18px;
+  }
+  .responsive-col-reverse {
+    flex-direction: column-reverse;
+  }
+  .footer p {
+    font-size: 8px;
+  }
+  .footer h1 {
+    font-size: 18px;
+  }
+  .image-20-text {
+    height: 180px;
+  }
+  .box-3 .row .col-10 p {
+    font-size: 9px;
+  }
+  .bg-box-gradient .row h6 {
+    margin: 10px 0 0;
+    font-size: 12px;
+  }
+  .bg-box-gradient .row p {
+    font-size: 9px;
+  }
+  .bg-box-gradient .row .col-10 .circul {
+    margin: 2px 0;
+  }
+  .head-title .button-group {
+    margin: 20px 0 40px 0;
+  }
+  .bg-box-gradient .row {
+    gap: 20px;
+  }
+  .box-3 .row {
+    gap: 20px;
+  }
+}
+
+.section-title .title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: #191b30;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-size: 17px;
+	font-weight: 600;
+}
+

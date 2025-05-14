@@ -1,0 +1,34 @@
+// Forgot password text style 
+.fogotPassword{
+    @include font;
+}
+
+// social media content style start
+.social-media-content{
+    @include form-content-size(100%);
+    .social-media-items{
+        @include width-height(100%,48px); //height width
+        padding: 16px;
+        border: 1px solid #f0eeee;
+        border-radius: 5px;//border
+        outline: none;
+    }
+    .social-media-items:hover {
+        box-shadow: 0px 0px 10px rgba(10, 175, 255, 0.35);
+        border: 1px solid #0010F7;
+      }
+}
+// social media content style end
+//
+//Before After Line of OR
+.or-line{
+    width: 45%;
+    height: 1px;
+    background-color: #EAEAEA;
+    margin-top: 8px;
+}
+// OR text 
+.or-text{
+    font-size: 10px;
+    font-weight: 600;
+}

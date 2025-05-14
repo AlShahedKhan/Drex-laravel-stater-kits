@@ -1,0 +1,101 @@
+.ot-pagination .active>.page-link {
+    background: linear-gradient(90deg, #0f6aff 0%, #21c6fb 100%);
+    color: #ffffff !important;
+}
+
+.ot-pagination .page-link:hover {
+    border-color: #5669ff !important;
+    cursor: pointer !important;
+}
+
+.fillable{
+    color: red;
+}
+
+.header-icon{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.4em;
+}
+
+
+.favicon-sidebar{
+    width: 30px !important;
+    height: 30px !important;
+    align-items: center;
+}
+
+.form sup{
+    color: red;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+}
+.user-card span{
+    display: flex;
+}
+
+.user-avatar+.user-info, [class^="user-avatar"]:not([class*="-group"])+.user-info {
+    margin-left: 1rem;
+}
+
+.dark_log {
+    width: 50px;
+    border-radius: 3px;;
+}
+
+button.profile-expand-item {
+    padding: 0 !important;
+    font-family: "Lexend", sans-serif;
+}
+
+.profile-menu img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.profile-body .card-header{
+    border-bottom: 1.5px solid var(--ot-border-primary)
+}
+
+.profile-body .image-box img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.direction-button div {
+    padding-top: 6px;
+    display: table-cell;
+}
+
+/* second clild */
+.direction-button div:nth-child(3) {
+    padding-left: 35px !important;
+}
+
+/* select2 for currency  */
+
+.select2-search__field[aria-controls="select2-language_with_flag-results"],
+.select2-search__field[aria-controls="select2-currencies-results"]{
+    padding: 8px 5px;
+}
+
+/* flug icon size  */
+.table-content.table-basic .flag-icon{
+    font-size: 22px;
+}
+
+
+/* dashboard form image  */
+.ot-input-image-preview{
+    width: 200px !important;
+    height: 200px !important;
+}
